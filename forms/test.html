@@ -1,0 +1,128 @@
+<html>  
+<form action="#" method="post">
+    <img src="C:\Users\ajith\OneDrive\Desktop\html\upper.jPG" width="100%" >
+    <fieldset>
+        <legend><strong>Applicant Details</strong></legend>
+        <div>
+            <label for="name">Name *</label>
+            <input type="text" id="name" name="name" maxlength="20" required>
+            &nbsp;
+            
+            <label for="guardian-name">Father's / Guardian's Name</label>
+            <input type="text" id="guardian-name" name="guardian-name">
+        </div>
+        <br>
+
+        <div>
+            <label for="dob">Date of birth *</label>
+            <input type="date" id="dob" name="dob" required>
+            
+
+            <label for="gender">Gender *</label>
+            <select id="gender" name="gender" required>
+                <option value="female">Female</option>
+                <option value="male">Male</option>
+            </select>
+        </div>
+        <br>
+        
+        <div>
+            <label for="age">Age As On *</label>
+            <input type="number" id="age-years" name="age-years" placeholder="Years" min="0">
+            <input type="number" id="age-months" name="age-months" placeholder="Months" min="0">
+            <input type="number" id="age-days" name="age-days" placeholder="Days" min="0">
+            
+            <label for="aadhaar">Aadhaar No</label>
+            <input type="text" id="aadhaar" name="aadhaar">
+        </div>
+        <br>
+
+        <div>
+            <label for="whatsapp">WhatsApp No</label>
+            <input type="tel" id="whatsapp" name="whatsapp">
+                    
+            <label for="email">E-mail *</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <br>
+        
+        <label for="photo">Photo *</label>
+        <input type="file" id="photo" name="photo" required>
+    </fieldset>
+    
+    <fieldset>
+        <div>
+            <legend><strong>Residential Address Details</strong></legend>
+            <label for="applicant-address">Applicant's Address *</label>
+            <input type="text" id="applicant-address" name="applicant-address" maxlength="30" required>
+            
+            
+            <label for="district">District *</label>
+            <select id="district" name="district" required>
+                <option value="HYDERABAD">HYDERABAD</option>
+            </select>
+        </div>
+        <br>
+        
+        <div>
+            <label for="mandal">Mandal</label>
+            <input type="text" id="mandal" name="mandal">
+            
+            <label for="village">Village *</label>
+            <select id="village" name="village" required>
+                <option value="HYDERABAD">HYDERABAD</option>
+            </select>
+        </div>
+        <br>
+
+        <label for="pincode">Pincode *</label>
+        <input type="text" id="pincode" name="pincode" required>
+        <br>
+        
+    </fieldset>
+    
+    <fieldset>
+        <legend><strong>Pass Type Details</strong></legend>
+        <label for="city">City *</label>
+        <select id="city" name="city" required>
+            <option value="Hyderabad">Hyderabad</option>
+        </select>
+        <br>
+        
+        <label for="pass-type">Pass Type *</label>
+        <select id="pass-type" name="pass-type" required>
+            <option value="">--Select--</option>
+        </select>
+    </fieldset>
+    
+    <fieldset>
+        <legend><strong>Mode of Payment & Pass Collection</strong></legend>
+        <label for="payment-mode">Payment Mode *</label>
+        <select id="payment-mode" name="payment-mode" required>
+            <option value="">Select Payment Mode</option>
+        </select>
+        <br>
+        
+        <label for="delivery-mode">Pass Delivery Mode *</label>
+        <select id="delivery-mode" name="delivery-mode" required>
+            <option value="">Select Pass Delivery Mode</option>
+        </select>
+        <br>
+        
+        <label for="collection-center">Center at which you want to Collect Pass *</label>
+        <select id="collection-center" name="collection-center" required>
+            <option value="">--Select--</option>
+        </select>
+    </fieldset>
+    
+    <div>
+        <center>
+         <img src="C:\Users\ajith\OneDrive\Desktop\html\lower.jPG" width="15%">
+        </center>
+    </div>
+    
+    <center>
+        <button type="submit">Submit</button>
+    </center>
+</form>
+</html>

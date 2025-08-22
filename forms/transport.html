@@ -1,0 +1,112 @@
+<form action="#" method="post">
+    <fieldset>
+        <legend><strong>Applicant Details</strong></legend>
+        <label for="name">Name *</label>
+        <input type="text" id="name" name="name" maxlength="20" required>
+        <br>
+        
+        <label for="guardian-name">Father's / Guardian's Name</label>
+        <input type="text" id="guardian-name" name="guardian-name">
+        <br>
+        
+        <label for="gender">Gender *</label>
+        <select id="gender" name="gender" required>
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+        </select>
+        <br>
+        
+        <label for="dob">Date of birth *</label>
+        <input type="date" id="dob" name="dob" required>
+        <br>
+        
+        <label for="age">Age As On *</label>
+        <input type="number" id="age-years" name="age-years" placeholder="Years" min="0">
+        <input type="number" id="age-months" name="age-months" placeholder="Months" min="0">
+        <input type="number" id="age-days" name="age-days" placeholder="Days" min="0">
+        <br>
+        
+        <label for="whatsapp">WhatsApp No</label>
+        <input type="tel" id="whatsapp" name="whatsapp">
+        <br>
+        
+        <label for="aadhaar">Aadhaar No</label>
+        <input type="text" id="aadhaar" name="aadhaar">
+        <br>
+        
+        <label for="email">E-mail *</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        
+        <label for="photo">Photo *</label>
+        <input type="file" id="photo" name="photo" required>
+    </fieldset>
+    
+    <fieldset>
+        <legend><strong>Residential Address Details</strong></legend>
+        <label for="applicant-address">Applicant's Address *</label>
+        <input type="text" id="applicant-address" name="applicant-address" maxlength="20" required>
+        <br>
+        
+        <label for="district">District *</label>
+        <select id="district" name="district" required>
+            <option value="HYDERABAD">HYDERABAD</option>
+        </select>
+        <br>
+        
+        <label for="mandal">Mandal</label>
+        <input type="text" id="mandal" name="mandal">
+        <br>
+        
+        <label for="pincode">Pincode *</label>
+        <input type="text" id="pincode" name="pincode" required>
+        <br>
+        
+        <label for="village">Village *</label>
+        <select id="village" name="village" required>
+            <option value="HYDERABAD">HYDERABAD</option>
+        </select>
+    </fieldset>
+    
+    <fieldset>
+        <legend><strong>Pass Type Details</strong></legend>
+        <label for="city">City *</label>
+        <select id="city" name="city" required>
+            <option value="Hyderabad">Hyderabad</option>
+        </select>
+        <br>
+        
+        <label for="pass-type">Pass Type *</label>
+        <select id="pass-type" name="pass-type" required>
+            <option value="">--Select--</option>
+        </select>
+    </fieldset>
+    
+    <fieldset>
+        <legend><strong>Mode of Payment & Pass Collection</strong></legend>
+        <label for="payment-mode">Payment Mode *</label>
+        <select id="payment-mode" name="payment-mode" required>
+            <option value="">Select Payment Mode</option>
+        </select>
+        <br>
+        
+        <label for="delivery-mode">Pass Delivery Mode *</label>
+        <select id="delivery-mode" name="delivery-mode" required>
+            <option value="">Select Pass Delivery Mode</option>
+        </select>
+        <br>
+        
+        <label for="collection-center">Center at which you want to Collect Pass *</label>
+        <select id="collection-center" name="collection-center" required>
+            <option value="">--Select--</option>
+        </select>
+    </fieldset>
+    
+    <div>
+        <label for="captcha">Captcha *</label>
+        <input type="text" id="captcha" name="captcha" value="JfzVCm" readonly>
+        <button type="button">Refresh</button>
+    </div>
+    
+    <button type="submit">Submit</button>
+</form>
